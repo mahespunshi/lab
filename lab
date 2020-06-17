@@ -7,7 +7,7 @@ a = b
 b = c
 print(a)
 print(b)
-
+# testing Minor change and see how pull request works, approve or comment if you want.
 # Q = 2
 a = 10
 b = 20
