@@ -1,0 +1,45 @@
+# Q =1
+
+a = 2
+b = 3
+c = a
+a = b
+b = c
+print(a)
+print(b)
+
+# Q = 2
+a = 10
+b = 20
+if a > b:
+    print (a)
+else:
+    print (b)
+
+
+# Q = 3
+a = "test_string_abc"
+b = "test_string_2"
+if len(a) > len(b):
+    print (a)
+else:
+    print (b)
+    
+# Q = 4
+
+for i in range(1,101): 
+    if i%2 == 0:
+        print (i)
+ 
+# Q = 5
+i = 0 
+while i < 101:
+    i += 1
+    if i%2==0:
+        print (i)
+
+# Q = 5
+for i in range(3):
+    for n in range(3):
+        print ("*", end=" ")
+    print("\n")
